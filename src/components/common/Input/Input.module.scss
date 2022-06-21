@@ -1,0 +1,24 @@
+.Input {
+    width: fit-content;
+    border: 1px solid red;
+    &.shadow {
+        box-shadow: 0 0 30px 0 black;
+    }
+    input {
+        width: 100px;
+    }
+    .text {
+        font-weight: bold;
+        color: blue;
+    }
+    .back {
+        background-color: gray;
+    }
+}
+
+.test {
+    height: 30px;
+    .back {
+        background-color: yellow;
+    }
+}
